@@ -12,7 +12,6 @@ EXPOSE 5000
 
 # Install all dependencies of the current project.
 COPY package.json package.json
-COPY package-lock.json package-lock.json
 RUN npm install
 
 # Copy all local files into the image.
