@@ -1,6 +1,6 @@
 # You should always specify a full version here to ensure all of your developers
 # are running the same version of Node.
-FROM node
+FROM node:alpine
 
 # Override the base log level (info).
 ENV NPM_CONFIG_LOGLEVEL warn
